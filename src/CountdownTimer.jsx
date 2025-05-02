@@ -3,8 +3,8 @@ import './salespage.css'
 
 
 const CountdownTimer = () => {
-  const COUNTDOWN_DURATION = 3600; // 1 hour in seconds
-  const STORAGE_KEY = 'countdownn-endd';
+  const COUNTDOWN_DURATION = 172800; // 1 hour in seconds
+  const STORAGE_KEY = 'countdown';
 
   const [timeLeft, setTimeLeft] = useState(0);
 
